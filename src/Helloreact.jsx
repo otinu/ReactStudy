@@ -14,9 +14,8 @@ export const HelloReact = () => {
     //  空タグの場合、不要なDOMは生成されない。 状況に応じてdivタグなどで囲ってもOK
     <>
       <h1 style={{ color: "red" }}>Hello React!</h1>
-      <ColoredMessage />
-      <ColoredMessage color="blue" message="Feeling difficult but funny" />
-      <ColoredMessage color="pink" message="Yes! I can do it!!" />
+      <ColoredMessage color="blue">Feeling difficult but funny</ColoredMessage>
+      <ColoredMessage color="pink">Yes! I can do it!!</ColoredMessage>
       <button onClick={onClickButton}>ボタン</button>
     </>
   );
