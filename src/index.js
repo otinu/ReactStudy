@@ -1,7 +1,5 @@
 import ReactDOM from "react-dom";
+import { HelloReact } from "./Helloreact";
 
-const App = () => {
-  return <h1>Hello React!</h1>;
-};
-
-ReactDOM.render(<App />, document.getElementById("root"));
+// 第一引数で関数を<>で囲うことでコンポーネントとして扱われている
+ReactDOM.render(<HelloReact />, document.getElementById("root"));
